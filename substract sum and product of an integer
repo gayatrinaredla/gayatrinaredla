@@ -1,0 +1,19 @@
+import java.util.*;
+class simple
+{ 
+public static void main(String args[])
+{
+Scanner s=new Scanner(System.in);
+ int n=s.nextInt();
+int pro=1,sum=0;
+while(n>0)
+{
+pro*=n%10;
+sum+=n%10;
+n/=10;
+} 
+int c=pro-sum;
+System.out.println(c);
+
+}
+} 
