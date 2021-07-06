@@ -1,0 +1,13 @@
+import java.util.*;
+public class largest
+ {
+   public static void main(String args[])
+{
+      int a[] = {10, 20, 30, 40, 50, 60};
+      int size = a.length;
+      Arrays.sort(a);
+      System.out.println("sorted Array ::"+Arrays.toString(a));
+      int sec = a[size-2];
+      System.out.println("2nd largest element is ::"+sec);
+   }
+}
